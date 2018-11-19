@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Scripts.ValidLogin_Actitime">
+        <methods>
+          <include name="open"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Scripts.ValidLogin_Actitime -->
+      <class name="Scripts.InvalidLogin_Actitime">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Scripts.InvalidLogin_Actitime -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
